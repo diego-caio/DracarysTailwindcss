@@ -1,9 +1,7 @@
 @import "tailwindcss";
 @plugin "@tailwindcss/typography";
 
-/* 
-Declarações de tema e animações no tailwindcss
-*/
+/* Declarações de tema e animações no tailwindcss */
 @theme {
 
     /* Define os quadros-chave de animação de entrada */
@@ -15,10 +13,10 @@ Declarações de tema e animações no tailwindcss
 
         100% {
             opacity: 1;
-            tranform: translateY(0);
+            transform: tranlateY(0);
         }
     }
 
-    /* Registra a classe utilitária 'animate-fade-slide' */
+    /* Registra a classe utilitaria 'animate-fade-slide' */
     --animate-fade-slide: fadeSlideIn 0.5s ease-out forwards;
 }
